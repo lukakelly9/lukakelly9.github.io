@@ -10,6 +10,21 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			/* CSS for alternating background colors */
+			.section-even {
+				background-color: #f8f8f8; /* Background color for even sections */
+			}
+
+			.section-odd {
+				background-color: #e8e8e8; /* Background color for odd sections */
+			}
+
+			/* Darker background for "Skills" section */
+			#skills.section-even {
+				background-color: rgb(241, 241, 241); /* Replace with your preferred dark color */
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -20,7 +35,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="images/intro_mountains.jpeg" alt="" /></span>
 							<h1 id="title">Luka Kelly</h1>
 							<p>Data Scientist</p>
 						</div>
@@ -31,10 +46,8 @@
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
 								<li><a href="#skills" id="skills-link"><span class="icon solid fa-cogs">Skills</span></a></li>
-								<li><a href="#experience" id="experience-link"><span class="icon solid fa-briefcase">Experience</span></a></li>
 								<li><a href="#education" id="education-link"><span class="icon solid fa-graduation-cap">Education</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
 
@@ -44,11 +57,10 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/lukakelly9" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/luka-kelly/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:lukakelly98@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="tel:7038620340" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
 						</ul>
 
 				</div>
@@ -63,128 +75,174 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<h2 class="alt"><strong>Luka Kelly</strong></h2>
+								<p>Dedicated to harnessing the power of science <br />
+								and data to unleash human potential.</p>
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<a href="#portfolio" class="button scrolly">Welcome</a>
 							</footer>
 
 						</div>
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<section id="portfolio" class="two section-even">
 						<div class="container">
-
 							<header>
 								<h2>Portfolio</h2>
 							</header>
-
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
-
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="https://github.com/lukakelly9/Predicting-Facial-Expression" class="image fit" target="_blank">
+											<img src="images/predicting_facial_expression.jpeg" alt="Predicting Facial Expression" width="420" height="275" />
+										</a>
 										<header>
-											<h3>Ipsum Feugiat</h3>
+											<h3>Predicting Facial Expression</h3>
 										</header>
 									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class = "item">
+										<a href="https://github.com/lukakelly9/Health-and-Fitness-Activity-Recommender" class="image fit" target="_blank">
+											<img src="images/fitness.jpeg" alt="Health and Fitness Activity Recommender" width="420" height="275" />
+										</a>
 										<header>
-											<h3>Rhoncus Semper</h3>
+											<h3>Health and Fitness Activity Recommender</h3>
 										</header>
 									</article>
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="https://github.com/lukakelly9/Predicting-the-Source-of-NFL-and-NBA-related-Reddit-Posts" class="image fit" target="_blank">
+											<img src="images/saquon.jpeg" alt="Predicting the Source of NFL and NBA-related Reddit Posts" width="420" height="275" />
+										</a>
 										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
+											<h3>Predicting the Source of NFL and NBA-related Reddit Posts</h3>
 										</header>
 									</article>
 								</div>
 							</div>
+						</div>
+					</section>
 
+				<!-- Skills -->
+					<section id="skills" class="skills section-even">
+						<div class="container">
+							<header>
+								<h2>Skills</h2>
+							</header>
+							<div class="row">
+								<div class="col-6 col-12-mobile">
+									<h3>Data Science Skills</h3>
+									<ul>
+										<li>Git</li>
+										<li>Data Visualization</li>
+										<li>Feature Engineering</li>
+										<li>Model Workflow</li>
+										<li>Supervised Learning Models: Regression, Classification</li>
+										<li>Advanced Supervised Learning Models: Classification and Regression Trees, Bagging, Boosting, Random Forest, Stacking</li>
+										<li>Unsupervised Learning Models: Kmeans, DBSCAN, PCA</li>
+										<li>Neural Networks, CNNs, RNNs</li>
+										<li>Time Series Models</li>
+										<li>Web Scraping</li>
+										<li>Data Cleaning</li>
+										<li>NLP</li>
+										<li>OOP</li>
+									</ul>
+									<h3>Enterprise Tools</h3>
+									<ul>
+										<li>ZoomInfo</li>
+										<li>LinkedIn Sales Navigator</li>
+										<li>HubSpot CRM Management</li>
+										<li>Google Suite</li>
+
+									</ul>
+								</div>
+								<div class="col-6 col-12-mobile">
+									<h3>Python Libraries</h3>
+									<ul>
+										<li>Pandas</li>
+										<li>NumPy</li>
+										<li>SciPy</li>
+										<li>Matplotlib</li>
+										<li>Seaborn</li>
+										<li>Scikit-learn</li>
+										<li>Beautiful Soup</li>
+										<li>StatsModels</li>
+										<li>DateTime</li>
+										<li>TensorFlow</li>
+									</ul>
+									<h3>Technologies</h3>
+									<ul>
+										<li>Python</li>
+										<li>SQL</li>
+										<li>Github</li>
+										<li>Jupyter Notebook</li>
+										<li>VS Code</li>
+										<li>R</li>
+										<li>Streamlit</li>
+										<li>AWS</li>
+										<li>Tableau</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Education -->
+					<section id="education" class="two section-odd">
+						<div class="container">
+							<header>
+								<h2>Education</h2>
+							</header>
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<img src="images/smeal_business_image.jpeg" alt="Master's in Management" width="390" height="300" />
+									<h3>Master's in Management & Organizational Leadership (One-Year MBA)</h3>
+									<p>Penn State University Smeal College of Business</p>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<img src="images/dsir_image.jpeg" alt="DSIR Certificate" width="390" height="300" />
+									<h3>Data Science Immersive (DSIR) Certificate</h3>
+									<p>General Assembly</p>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<img src="images/psu_neuro_image.jpeg" alt="B.S. in Psychology and Neuroscience" width="390" height="300"/>
+									<h3>B.S. in Psychology and Neuroscience</h3>
+									<p>Penn State University</p>
+								</div>
+							</div>
+							<footer>
+								<a href="https://drive.google.com/file/d/1Rv81FDeJNEapBHwCEhP2Sb7BBst2clIy/view?usp=share_link" class="button" download target="_blank">Download My Resume</a>
+							</footer>
 						</div>
 					</section>
 
 				<!-- About Me -->
-					<section id="about" class="three">
+					<section id="about" class="three section-odd">
 						<div class="container">
 
 							<header>
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/neurons.jpeg" alt="" height="450" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<p style="margin-bottom: 20px;">I'm a passionate data scientist and technology enthusiast with expertise in Python, SQL, data visualization, and machine learning. My journey in the world of data has been marked by a commitment to innovation and a drive to solve complex problems.</p>
 
+							<p style="margin-bottom: 20px;">With a Master's in Management and Organizational Leadership from Penn State, a Certificate in Data Science Immersive (DSIR) from General Assembly, and a B.S. in Psychology and Neuroscience, I bring a unique blend of business acumen, data science skills, and an understanding of the human mind to the table.</p>
+
+							<p style="margin-bottom: 20px;">I'm dedicated to harnessing the power of data to drive business success and make informed decisions. What truly sets my heart on fire, though, is my aspiration to launch a career in neurotechnology, specifically in Brain Computer Interfaces (BCIs). I'm on a mission to collaborate with an innovative team that shares my passion for unlocking the potential of the human brain when combined with technology.</p>
+
+							<p style="margin-bottom: 20px;">What sets me apart is my ability to translate complex data into actionable insights. I thrive on tackling challenges and finding creative solutions to drive business impact. My ultimate goal is to help lead the charge in creating a world where neurotechnology can restore capabilities such as vision, motor function, and speech.</p>
+
+							<p style="margin-bottom: 20px;">I'm always open to connecting with fellow data enthusiasts, business leaders, and professionals who share my vision for the future of neurotechnology. Let's collaborate and explore the endless possibilities that data and technology have to offer in the realm of neuroscience and human potential.</p>
 						</div>
 					</section>
 
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
 
 			</div>
 
